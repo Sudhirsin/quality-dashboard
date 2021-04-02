@@ -63,7 +63,7 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: >-
-            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_QUALITY_DASHBOARD_STAGING_EADDF
+            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_QUALITY_DASHBOARD_STAGING
             }}
           channelId: live
           projectId: quality-dashboard-stagin-1b5b6
