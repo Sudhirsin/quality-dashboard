@@ -27,7 +27,7 @@ jobs:
   deploy_to_production:
     if: github.ref == 'refs/heads/main'
     needs: test_and_build
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/ckeckout@v2
