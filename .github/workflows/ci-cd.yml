@@ -5,6 +5,8 @@ name: Continuous Integration and Delivery
 on:
   push:
     branches: [main, staging]
+env: 
+  CI: false
 
 jobs:
   test_and_build:

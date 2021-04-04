@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react';
 import clsx from 'clsx';
 
 // materia ui
-import { Drawer, List, IconButton, Icon } from '@material-ui/core';
+import { Drawer, List, IconButton } from '@material-ui/core';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import MenuIcon from '@material-ui/icons/Menu';
 
