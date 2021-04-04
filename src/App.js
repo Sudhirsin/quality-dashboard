@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Navigation from './components/Navigation'
 import routes from './routes'

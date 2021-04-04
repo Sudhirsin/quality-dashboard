@@ -50,6 +50,7 @@ const Navigation = () => {
                                     <div className={classes.navigationSpacer}></div>
                                 )}
                                 <MenuItem 
+                                    key={index}
                                     label={route.label} 
                                     icon={route.icon} 
                                     activeIcon={route.activeIcon} 
