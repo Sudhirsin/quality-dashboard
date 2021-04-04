@@ -15,7 +15,7 @@ const App = () => {
       <h1 style={{
         color: '#6EC177',
         margin: 0
-      }}>Wah Gwan, Soon Come</h1>
+      }}>Wah Gwan, Soon Come !!</h1>
       <p>What's Up, Coming Soon</p>
     </div>
   )
